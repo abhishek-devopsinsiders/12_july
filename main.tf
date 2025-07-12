@@ -26,3 +26,9 @@ resource azurerm_resource_group "rg-block1" {
   name     = "rg2"
   location = "West Europe"
 }
+
+resource azurerm_resource_group "rg-rahul" {
+  name     = "rahul_rg"
+  location = "West Europe"
+}
+
