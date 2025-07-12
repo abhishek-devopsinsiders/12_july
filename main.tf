@@ -21,3 +21,8 @@ resource azurerm_storage_account "sa-block1" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
 }
+
+resource azurerm_resource_group "rg-block1" {
+  name     = "rg2"
+  location = "West Europe"
+}
