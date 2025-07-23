@@ -4,7 +4,7 @@ resource azurerm_resource_group "rg-block" {
 }
 
 resource azurerm_storage_account "sa-block" {
-  name                     = "stgaccount1"
+  name                     = "stgaccount12"
   resource_group_name      = azurerm_resource_group.rg-block.name
   location                 = azurerm_resource_group.rg-block.location
   account_tier             = "Standard"
@@ -15,7 +15,7 @@ resource azurerm_resource_group "rg-block1" {
   location = "West Europe"
 }
 resource azurerm_storage_account "sa-block1" {
-  name                     = "abhistg"
+  name                     = "abhistg1"
   resource_group_name      = azurerm_resource_group.rg-block.name
   location                 = azurerm_resource_group.rg-block.location
   account_tier             = "Standard"
